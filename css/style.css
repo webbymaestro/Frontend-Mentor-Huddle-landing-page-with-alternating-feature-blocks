@@ -308,7 +308,7 @@ i {
 
     #showcase {
         background-image: url(/images/bg-hero-desktop.svg);
-        background-position: center center;
+        background-position: center bottom;
         background-repeat: no-repeat;
         background-size: cover;
         text-align: left;
@@ -331,10 +331,13 @@ i {
 
     .hero-img {
         flex: 50%;
+        min-height: 200px;
+        align-items: center;
+        justify-content: center;
     }
 
     #showcase-title {
-        font-size: 3rem;
+        font-size: 2.8rem;
         font-weight: 700;
         line-height: 1.4;
     }
@@ -492,6 +495,3 @@ i {
     }
 
 }
-
-
-
